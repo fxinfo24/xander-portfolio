@@ -15,10 +15,18 @@
     background-color: #6CAA80;
     color: #FFFFFF;
 }
+.btn-secondery {
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+}
 /* Header and navigation styles */
 header {
     background-color: #e9f2eb;
-    background-image: url('../images/header-bg.png'), url('../images/Designer.png');
+    background-image: url('../images/header-bg.png'), url('../images/designer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left;
 }
@@ -42,7 +50,8 @@ text-align: left;
 nav {
     display:flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
+    
 }
 nav ul{
     display: flex;
@@ -57,6 +66,7 @@ nav li {
     display: flex;
     margin: 0 200px;
     align-items: center;
+    /* margin-left: 700px; */
 }
 .banner-title {
     font-weight: 700;
@@ -98,7 +108,29 @@ main {
     color: #54595F;
     font-size: 18px;
     margin-bottom: 30px;
+    
 }
 .about-info-container {
     display: flex;
+    justify-content: space-around;
+   
+}
+.info-title {
+    font-size: 20px;
+    color: #54595F;
+}
+.info-description {
+    font-size: 20px;
+    font-weight: 700;
+    color: #54595F;
+}
+/* What I do section styles */
+
+.my-skills {
+    margin-top: 130px;
+    
+}
+.skills-container {
+    display:flex;
+    justify-content: space-between;
 }
