@@ -163,6 +163,10 @@ main {
     display: flex;
     gap: 24px;
 }
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .resume .title {
     font-size: 20px;
     font-weight: 700;
@@ -179,4 +183,9 @@ main {
 .resume .description{
     color: #54595F;
     border-bottom: solid 2px #54595F;
+    padding-bottom: 30px;
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
 }
