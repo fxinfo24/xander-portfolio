@@ -6,7 +6,7 @@
     color: #6CAA80;
 }
 .btn-primary {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     font-style: normal;
     padding: 18px 35px;
@@ -15,8 +15,8 @@
     background-color: #6CAA80;
     color: #FFFFFF;
 }
-.btn-secondery {
-    font-size: 20px;
+.btn-secondary {
+    font-size: 18px;
     font-weight: 700;
     font-style: normal;
     padding: 18px 35px;
@@ -70,12 +70,12 @@ nav li {
 }
 .banner-title {
     font-weight: 700;
-    font-size: 75px;
+    font-size: 65px;
 }
 
 .banner-sub-title {
     font-weight: 600;
-    font-size: 45px;
+    font-size: 35px;
     margin: 20px;
 }
 .banner-description {
@@ -188,4 +188,21 @@ main {
 .resume-button{
     margin-top: 50px;
     text-align: center;
+}
+/* Contact Section style */
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #e9f2eb;
+    padding: 130px 200px;
+}
+.contact a{
+    text-decoration: none;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact input[type="tex"], input[type="email"] textarea {
+    margin-bottom: 24px;
+    width: 100%;
 }
